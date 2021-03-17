@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+	    "path" : "pages/ADpage/ADpage",
+	    "style" :                                                                                    
+	    {
+	        "navigationBarTitleText": "",
+	        "enablePullDownRefresh": false
+	    }
+	    
+	},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"disableScroll": true
+			}
+		}, {
+			"path": "pages/channel/channel",
+			"style": {}
+		}, {
+			"path": "pages/moving/moving",
+			"style": {}
+		}, {
+			"path": "pages/vipBuy/vipBuy",
+			"style": {}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {}
+		}
+        ,{
+            "path" : "pages/player/player",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarTextStyle":"black"
+	},
+	"tabBar": {
+		"color": "#818181",
+		"selectedColor": "#FB789E",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [
+			{
+				"pagePath" : "pages/index/index",
+				"text" : "首页",
+				"iconPath":"static/tabbarImg/shouye.png",
+				"selectedIconPath":"static/tabbarImg/shouyeed.png"
+			},
+			{
+				"pagePath":"pages/channel/channel",
+				"text": "频道",
+				"iconPath":"static/tabbarImg/pindao.png",
+				"selectedIconPath":"static/tabbarImg/pindaoed.png"
+			},
+			{
+				"pagePath":"pages/moving/moving",
+				"text":"动态",
+				"iconPath":"static/tabbarImg/dongtai.png",
+				"selectedIconPath":"static/tabbarImg/dongtaied.png"
+			},
+			{
+				"pagePath":"pages/vipBuy/vipBuy",
+				"text": "会员购",
+				"iconPath":"static/tabbarImg/gouwuche.png",
+				"selectedIconPath":"static/tabbarImg/gouwucheed.png"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"text":"我的",
+				"iconPath":"static/tabbarImg/mine.png",
+				"selectedIconPath":"static/tabbarImg/mineed.png"
+			}
+		]
+	}
+}
